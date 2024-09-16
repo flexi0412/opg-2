@@ -121,67 +121,6 @@ resultat = int(butik1_in + butik2_in + butik3_in + butik4_in + butik5_in)
 print(resultat) #Printer resultatet.
 """
 
-"""
-#Øvelse 5
-# Temperaturmålinger fra de fem målningsstationer
-temperaturer = [21.2, 20.5, 21.6, 22.1, 21.5]
-
-# Beregning af gennemsnittet
-gennemsnit = sum(temperaturer) / len(temperaturer)
-
-# Udskriv gennemsnittet med én decimal
-print(f"Gennemsnitlig temperatur: {gennemsnit:.1f}°C")
-"""
-
-"""
-#Øvelse 7.1
-class Person:
-    navn = ""
-    alder = 0
-    land = ""
-
-    def beskrivelse(self):
-        print(f"Hej, Jeg hedder {self.navn} og jeg er {self.alder} år gammel, og kommer fra {self.land}.")
-
-# Instanser af klassen Person
-person0 = Person()
-person0.navn = "Magnus"
-person0.alder = 21
-person0.land = "Danmark"
-person0.beskrivelse()
-
-person1 = Person()
-person1.navn = "Josephine"
-person1.alder = 20
-person1.land = "Danmark"
-person1.beskrivelse()
-
-person2 = Person()
-person2.navn = "Lucas"
-person2.alder = 23
-person2.land = "Danmark"
-person2.beskrivelse()
-"""
-"""
-#Øvelse 7.4
-class Person():
-    def __init__(self, navn, alder, land):
-        self.navn = navn
-        self.age = alder
-        self.land = land
-    
-    # Det er vigtigt at def er på samme linje start.
-    def beskrivelse(self):
-        print("%s is %d years old and he is from %s." % (self.navn, self.age, self.land))
-
-# Det her fortæller om person1.
-person1 = Person("Magnus", 25, "Danmark")
-
-# Det her er til at få det hele printet sammen.
-person1.beskrivelse()
-"""
-
-
         
         
 
