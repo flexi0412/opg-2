@@ -10,7 +10,7 @@ class Person():
         self.country = country
         
         def beskrivelse(self)
-        print("%s is %d years old and is from %s." %self.name, self.age, self.country))
+        print("%s is %d years old and is from %s." %(self.name, self.age, self.country))
     
 #7.2
 # I main.py
